@@ -1,1 +1,19 @@
-An example repo illustrating how to use pymc to fit a model for galaxy surface brightness to observations of M31.
+## An example repo illustrating how to use pymc to fit a  
+    model for galaxy surface brightness to observations of M31. ##
+
+Contains:
+
+ - m31_SB_profile.txt (our observations)
+ - SB_model.py (defining the pymc statistical model)
+ - MCMC_surface_brightness.ipynb (a notebook that guides you through the fitting procedure)
+ - MCMC_surface_brightness.py (a pure python version of the above, if you don't have the notebook)
+
+
+TO RUN THE NOTEBOOK:
+simply run, from this folder:
+$ ipython notebook MCMC_surface_brightness.ipynb
+
+TO RUN THE PYTHON FILE:
+I recommend running the python file one command at a time,
+ to see how it works, though you can run it from the command line:
+$ python MCMC_surface_brightness.py
